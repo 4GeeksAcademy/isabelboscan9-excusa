@@ -8,8 +8,8 @@ import "./assets/img/4geeks.ico";
 window.onload = function() {
   //write your code here
   console.log("Hello Rigo from the console!");
-  const p = document.getElementById("excuse");
-  p.innerText = generateExcuse();
+  const PARRAFO = document.getElementById("excuse");
+  PARRAFO.innerText = generateExcuse();
 };
 
 let who = ["The dog", "My grandma", "The mailman", "My bird"];
